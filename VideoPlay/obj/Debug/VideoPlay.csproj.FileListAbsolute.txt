@@ -1,0 +1,14 @@
+F:\Practice\c#\VideoPlay\VideoPlay\bin\Debug\VideoPlay.exe.config
+F:\Practice\c#\VideoPlay\VideoPlay\bin\Debug\VideoPlay.exe
+F:\Practice\c#\VideoPlay\VideoPlay\bin\Debug\VideoPlay.pdb
+F:\Practice\c#\VideoPlay\VideoPlay\bin\Debug\Interop.WMPLib.dll
+F:\Practice\c#\VideoPlay\VideoPlay\bin\Debug\AxInterop.WMPLib.dll
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\Interop.WMPLib.dll
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\AxInterop.WMPLib.dll
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.csproj.ResolveComReference.cache
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.Properties.Resources.resources
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.VideoPlayer.resources
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.csproj.GenerateResource.Cache
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.exe
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.pdb
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.csprojResolveAssemblyReference.cache
