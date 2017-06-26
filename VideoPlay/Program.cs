@@ -14,9 +14,9 @@ namespace VideoPlay
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();//此行为允许虚拟模式运行的命令
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VideoPlayer());
+                Application.EnableVisualStyles();//此行为允许虚拟模式运行的命令
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new VideoPlayer());
         }
     }
 }

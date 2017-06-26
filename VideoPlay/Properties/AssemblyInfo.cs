@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("VideoPlay")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("轩邈Player")]
+[assembly: AssemblyDescription("轩邈")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("轩邈")]
 [assembly: AssemblyProduct("VideoPlay")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]

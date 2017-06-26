@@ -12,3 +12,6 @@ F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.csproj.GenerateResource.C
 F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.exe
 F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.pdb
 F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.csprojResolveAssemblyReference.cache
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\VideoPlay.ListElement.resources
+F:\Practice\c#\VideoPlay\VideoPlay\obj\Debug\Interop.Shell32.dll
+F:\Practice\c#\VideoPlay\VideoPlay\bin\Debug\CYFolderBrowse.dll

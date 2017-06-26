@@ -31,7 +31,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
+    <Reference Include="CYFolderBrowse, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\0others\WindowsFormsApplication1\bin\Release\CYFolderBrowse.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,9 +53,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GetVideoLength.cs" />
     <Compile Include="InterfaceLandscaping.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="KeyboardHook.cs" />
+    <Compile Include="ListElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListElement.Designer.cs">
+      <DependentUpon>ListElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadTextFile.cs" />
     <Compile Include="VideoPlayer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +73,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Win32Api.cs" />
+    <Compile Include="WriteTextFile.cs" />
+    <EmbeddedResource Include="ListElement.resx">
+      <DependentUpon>ListElement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -91,6 +113,15 @@
       <WrapperTool>aximp</WrapperTool>
       <Isolated>False</Isolated>
     </COMReference>
+    <COMReference Include="Shell32">
+      <Guid>{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
     <COMReference Include="WMPLib">
       <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -102,8 +133,17 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CYFolderBrowse.dll" />
+    <Content Include="icon.ico" />
+    <Content Include="image\add.png" />
+    <Content Include="image\collection-gray.png" />
+    <Content Include="image\collection-gray2.png" />
+    <Content Include="image\collection-white.png" />
+    <Content Include="image\collection.png" />
     <Content Include="image\exit.png" />
     <Content Include="image\exit1.png" />
+    <Content Include="image\mute-red.png" />
+    <Content Include="image\mute-red2.png" />
     <Content Include="image\volume.png" />
     <Content Include="image\volume2.png" />
     <Content Include="image\volume3.png" />
@@ -134,6 +174,9 @@
     <None Include="image\exit32.png" />
     <Content Include="image\exitBtn.png" />
     <Content Include="image\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
